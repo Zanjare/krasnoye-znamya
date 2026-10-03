@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Package the extension
+        run: npx --yes @vscode/vsce package --no-rewrite-relative-links -o krasnoye-znamya.vsix
+      - name: Create a GitHub release with the .vsix attached
+        uses: softprops/action-gh-release@v2
+        with:
+          files: krasnoye-znamya.vsix
+          generate_release_notes: true

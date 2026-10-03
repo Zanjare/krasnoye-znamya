@@ -1,0 +1,157 @@
+{
+  "name": "krasnoye-znamya",
+  "displayName": "Krasnoye Znamya - Red Banner Themes",
+  "description": "23 hand-tuned color themes inspired by 20th-century poster art: Soviet, Red Sun and Juche palettes. No italics, bold marks structure, every color checked for contrast.",
+  "version": "1.0.0",
+  "publisher": "amir",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zanjare/krasnoye-znamya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zanjare/krasnoye-znamya/issues"
+  },
+  "homepage": "https://github.com/Zanjare/krasnoye-znamya#readme",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "light theme",
+    "poster art",
+    "soviet",
+    "red",
+    "no italics",
+    "eye comfort"
+  ],
+  "galleryBanner": {
+    "color": "#8E2417",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arirang Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arirang-night-color-theme.json"
+      },
+      {
+        "label": "Cadre Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cadre-blue-color-theme.json"
+      },
+      {
+        "label": "Chollima Navy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chollima-navy-color-theme.json"
+      },
+      {
+        "label": "Crimson Hall",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crimson-hall-color-theme.json"
+      },
+      {
+        "label": "Ink and Seal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ink-and-seal-color-theme.json"
+      },
+      {
+        "label": "Jade Fields",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jade-fields-color-theme.json"
+      },
+      {
+        "label": "Juche Granite",
+        "uiTheme": "vs",
+        "path": "./themes/juche-granite-color-theme.json"
+      },
+      {
+        "label": "Loess Earth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loess-earth-color-theme.json"
+      },
+      {
+        "label": "Magnolia Spring",
+        "uiTheme": "vs",
+        "path": "./themes/magnolia-spring-color-theme.json"
+      },
+      {
+        "label": "Mansudae Mural",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mansudae-mural-color-theme.json"
+      },
+      {
+        "label": "Paektu Heaven Lake",
+        "uiTheme": "vs-dark",
+        "path": "./themes/paektu-heaven-lake-color-theme.json"
+      },
+      {
+        "label": "Pyongyang Pastel",
+        "uiTheme": "vs",
+        "path": "./themes/pyongyang-pastel-color-theme.json"
+      },
+      {
+        "label": "Red Sun Lacquer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red-sun-lacquer-color-theme.json"
+      },
+      {
+        "label": "Rice Paper Poster",
+        "uiTheme": "vs",
+        "path": "./themes/rice-paper-poster-color-theme.json"
+      },
+      {
+        "label": "Soviet Cosmos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soviet-cosmos-color-theme.json"
+      },
+      {
+        "label": "Soviet Dusk II",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soviet-dusk-ii-color-theme.json"
+      },
+      {
+        "label": "Soviet Kremlin Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soviet-kremlin-night-color-theme.json"
+      },
+      {
+        "label": "Soviet Olive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soviet-olive-color-theme.json"
+      },
+      {
+        "label": "Soviet Paper",
+        "uiTheme": "vs",
+        "path": "./themes/soviet-paper-color-theme.json"
+      },
+      {
+        "label": "Soviet Steel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soviet-steel-color-theme.json"
+      },
+      {
+        "label": "Soviet Winter",
+        "uiTheme": "vs",
+        "path": "./themes/soviet-winter-color-theme.json"
+      },
+      {
+        "label": "Sunflower Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/sunflower-dawn-color-theme.json"
+      },
+      {
+        "label": "Taedong Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/taedong-dusk-color-theme.json"
+      }
+    ]
+  }
+}

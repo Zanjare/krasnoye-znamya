@@ -1,0 +1,26 @@
+{
+  // Paste into settings.json (Ctrl+Shift+P -> "Open User Settings (JSON)")
+
+  "workbench.colorTheme": "Soviet Dusk II",
+
+  // Bold is used for structure (def, class, keywords, decorators, None/True/False),
+  // so keep the base weight normal to make the contrast visible
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.7,
+  "editor.letterSpacing": 0.3,
+  "editor.fontLigatures": true,
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.renderCharacters": false,
+
+  // Comfortable motion (set these to false if the laptop feels slow)
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true
+}
